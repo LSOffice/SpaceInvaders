@@ -4,7 +4,7 @@ from scene import scene
 if int(sys.version[0]) < 3:
     print("Error detected. Wrong python version. Must run python3")
 
-nameOfGame = "SpaceInvaders"
+nameOfGame = "Space Invaders"
 pygame.init()
 screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 pygame.display.set_caption(nameOfGame, nameOfGame)
